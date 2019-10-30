@@ -1,0 +1,14 @@
+@import '~tachyons-sass/tachyons.scss';
+
+.Button {
+    @extend .f4;
+    @extend .link;
+    @extend .dim;
+    @extend .ba;
+    @extend .ph3;
+    @extend .pv2;
+    @extend .dib;
+    @extend .w-100;
+    @extend .black;
+    @extend .tc;
+}

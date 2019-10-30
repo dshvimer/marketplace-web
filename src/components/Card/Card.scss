@@ -1,0 +1,58 @@
+@import '~tachyons-sass/tachyons.scss';
+@import 'styles/fonts.scss';
+
+.Card {
+    @extend .tc;
+    @extend .dim;
+
+    article {
+        @extend .hide-child;
+        @extend .relative;
+        @extend .ba;
+        @extend .b--black-20;
+        @extend .center;
+    }
+
+    img {
+        @extend .db;
+        @extend .w-100;
+    }
+
+    div {
+        @extend .pv3;
+        @extend .ph3;
+    }
+
+    p {
+        @extend .f6;
+        @extend .gray;
+        @extend .mt1;
+        @extend .mb2;
+        @extend .pb2;
+        @extend .tl;
+        font-family: $secondary-font;
+    }
+
+    header {
+        @extend .dt;
+        @extend .w-100;
+
+        div {
+            @extend .dtc;
+            @extend .pb0;
+
+            h1 {
+                @extend .f5;
+                @extend .f4-ns;
+                @extend .mv0;
+                @extend .tl;
+            }
+
+            h2 {
+                @extend .f5;
+                @extend .mv0;
+                @extend .tr;
+            }
+        }
+    }
+}

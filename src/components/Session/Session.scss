@@ -1,0 +1,42 @@
+@import '~tachyons-sass/tachyons.scss';
+
+.Session {
+    fieldset {
+        @extend .ba;
+        @extend .b--transparent;
+        @extend .ph0;
+        @extend .mh0;
+
+        legend {
+            @extend .f4;
+            @extend .fw6;
+            @extend .ph0;
+            @extend .mh0;
+        }
+
+        .email {
+            @extend .mt3;
+        }
+
+        .password {
+            @extend .mv3;
+        }
+
+        div {
+            label {
+                @extend .db;
+                @extend .fw6;
+                @extend .lh-copy;
+                @extend .f6;
+            }
+
+            input {
+                @extend .pa2;
+                @extend .input-reset;
+                @extend .ba;
+                @extend .bg-transparent;
+                @extend .w-100;
+            }
+        }
+    }
+}

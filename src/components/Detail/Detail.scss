@@ -1,0 +1,61 @@
+@import '~tachyons-sass/tachyons.scss';
+@import 'styles/fonts.scss';
+
+.Detail {
+    img {
+        @extend .db;
+        @extend .w-100;
+    }
+
+    div {
+        @extend .pb3;
+    }
+
+    h2 {
+        @extend .f2;
+        @extend .mt0;
+        @extend .mb3;
+    }
+
+    p {
+        @extend .f5;
+        @extend .gray;
+        @extend .mt0;
+        @extend .mb0;
+        @extend .pb0;
+        @extend .pt0;
+        @extend .tl;
+        font-family: $secondary-font;
+    }
+
+    header {
+        @extend .dt;
+        @extend .w-100;
+
+        div {
+            @extend .dtc;
+
+            h1 {
+                @extend .f3;
+                @extend .mv0;
+                @extend .tl;
+            }
+        }
+    }
+
+    dl {
+        @extend .lh-title;
+        @extend .mt0;
+
+        dt {
+            @extend .f4;
+            @extend .b;
+        }
+
+        dd {
+            @extend .ml0;
+            @extend .f4;
+            @extend .mb3;
+        }
+    }
+}
